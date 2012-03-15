@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background">
+		<com.markupartist.android.widget.ActionBar
+		    android:id="@+id/actionBar"
+		    style="@style/ActionBar"
+	        />
+		<ListView 
+		android:id="@+id/wifiNetworksList"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		</ListView>	
+
+</LinearLayout>

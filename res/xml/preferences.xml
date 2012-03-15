@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <PreferenceCategory
+                android:title="@string/ping_preferences">
+                <ListPreference
+                	android:name="@string/number_of_pings"
+                	android:title="@string/number_of_pings"
+                	android:summary="@string/number_of_pings_to_execute"
+                	android:defaultValue="6"
+                	android:key="numPings"
+                	android:entries="@array/numberPings"
+                	android:entryValues="@array/numberPingsValues"
+                 />
+        </PreferenceCategory>
+</PreferenceScreen>

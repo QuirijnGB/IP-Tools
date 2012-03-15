@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background">
+	<com.markupartist.android.widget.ActionBar
+		    android:id="@+id/actionBar"
+		    style="@style/ActionBar"
+	        />
+   	<ScrollView android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<RelativeLayout android:id="@+id/IPCalc"
+			android:layout_width="fill_parent" android:layout_height="100dip"
+			android:padding="6dip" android:clickable="true">
+			<TextView android:singleLine="true" android:layout_height="wrap_content"
+				android:text="@string/ip_calculator_desc" android:ellipsize="marquee"
+				android:id="@+id/secondLine" android:layout_width="fill_parent"
+				android:layout_below="@+id/textView1" android:layout_toRightOf="@+id/icon"
+				android:textSize="4pt" android:layout_marginLeft="10dp" android:textColor="@color/text_color"></TextView>
+			<ImageView android:id="@+id/icon" android:layout_height="fill_parent"
+				android:src="@drawable/ic_ip_calculator" android:layout_width="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentLeft="true" android:layout_marginLeft="10dp"></ImageView>
+			<TextView android:layout_alignWithParentIfMissing="true"
+				android:layout_height="wrap_content" android:text="@string/ip_calculator"
+				android:gravity="center_vertical" android:id="@+id/textView1"
+				android:layout_width="fill_parent" android:textSize="10pt"
+				android:layout_alignTop="@+id/icon" android:layout_toRightOf="@+id/icon"
+				android:layout_marginTop="20dp" android:layout_marginLeft="10dp" android:textColor="@color/text_color"></TextView>
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/Utilities"
+			android:layout_width="fill_parent" android:layout_height="100dip"
+			android:padding="6dip" android:clickable="true">
+			<TextView android:singleLine="true" android:layout_height="wrap_content"
+				android:text="@string/admin_utilities_desc" android:ellipsize="marquee"
+				android:id="@+id/secondLine" android:layout_width="fill_parent"
+				android:layout_below="@+id/textView1" android:layout_toRightOf="@+id/icon"
+				android:textSize="4pt" android:layout_marginLeft="10dp" android:textColor="@color/text_color"></TextView>
+			<ImageView android:id="@+id/icon" android:layout_height="fill_parent"
+				android:src="@drawable/ic_diagnostic_tools" android:layout_width="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentLeft="true" android:layout_marginLeft="10dp"></ImageView>
+			<TextView android:layout_alignWithParentIfMissing="true"
+				android:layout_height="wrap_content" android:text="@string/admin_utilities"
+				android:gravity="center_vertical" android:id="@+id/textView1"
+				android:layout_width="fill_parent" android:textSize="10pt"
+				android:layout_alignTop="@+id/icon" android:layout_toRightOf="@+id/icon"
+				android:layout_marginTop="20dp" android:layout_marginLeft="10dp" android:textColor="@color/text_color"></TextView>
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/Wifi"
+			android:layout_width="fill_parent" android:layout_height="100dip"
+			android:padding="6dip" android:clickable="true">
+			<TextView android:singleLine="true" android:layout_height="wrap_content"
+				android:text="@string/wifi_networks_desc" android:ellipsize="marquee"
+				android:id="@+id/secondLine" android:layout_width="fill_parent"
+				android:layout_below="@+id/textView1" android:layout_toRightOf="@+id/icon"
+				android:textSize="4pt" android:layout_marginLeft="10dp" android:textColor="@color/text_color"></TextView>
+			<ImageView android:id="@+id/icon" android:layout_height="fill_parent"
+				android:src="@drawable/ic_wifi_networks" android:layout_width="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentLeft="true" android:layout_marginLeft="10dp"></ImageView>
+			<TextView android:layout_alignWithParentIfMissing="true"
+				android:layout_height="wrap_content" android:text="@string/wifi_networks"
+				android:gravity="center_vertical" android:id="@+id/textView1"
+				android:layout_width="fill_parent" android:textSize="10pt"
+				android:layout_alignTop="@+id/icon" android:layout_toRightOf="@+id/icon"
+				android:layout_marginTop="20dp" android:layout_marginLeft="10dp" android:textColor="@color/text_color"></TextView>
+		</RelativeLayout>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

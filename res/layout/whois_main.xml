@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background">
+	<com.markupartist.android.widget.ActionBar
+		    android:id="@+id/actionBar"
+		    style="@style/ActionBar"
+	        />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="horizontal" android:layout_height="wrap_content" android:weightSum="1">
+		<EditText android:text="google.com"
+			android:layout_height="50dip"
+			android:id="@+id/txtURL" android:layout_width="233dp"></EditText>
+		<Button android:layout_width="50dip" android:layout_height="50dip"
+			android:id="@+id/btnRequest" android:text="@string/request" />
+	</LinearLayout>
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_height="wrap_content"
+			android:id="@+id/pingResults">
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

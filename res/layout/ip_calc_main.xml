@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background">
+	<com.markupartist.android.widget.ActionBar
+		android:id="@+id/actionBar" style="@style/ActionBar" />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="horizontal" android:layout_height="wrap_content"
+		android:weightSum="2" android:focusable="true"
+		android:focusableInTouchMode="true">
+		<EditText android:text="192.168.1.1/20" android:inputType="phone"
+			android:layout_height="50dip" android:layout_weight="1" android:id="@+id/txtAddress"
+			android:layout_width="wrap_content" android:layout_marginTop="1dip"
+			android:nextFocusUp="@+id/txtAddress" android:nextFocusLeft="@+id/txtAddress" android:imeOptions="actionGo"></EditText>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="50dip" android:id="@+id/btnCalc" android:text="@string/calculate"
+			android:layout_weight="1" />
+	</LinearLayout>
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_height="fill_parent" android:padding="15dip"
+			android:id="@+id/results">
+			<TextView android:layout_width="fill_parent" android:text="@string/network_class"
+				android:layout_height="wrap_content" android:id="@+id/lblNetworkClass" android:textSize="20dip"/>
+			<TextView android:layout_width="fill_parent" android:paddingBottom="10dip"
+				android:layout_height="wrap_content" android:id="@+id/txtNetworkClass"  android:text="@string/dash"/>
+				
+			<TextView android:layout_width="fill_parent" android:text="@string/binary_addres"
+				android:layout_height="wrap_content" android:id="@+id/lblBinaryAddress"  android:textSize="20dip"/>
+			<TextView android:layout_width="fill_parent" android:paddingBottom="10dip"
+				android:layout_height="wrap_content" android:id="@+id/txtBinaryAddress"   android:text="@string/dash"/>
+				
+			<TextView android:layout_width="fill_parent" android:text="@string/network_address"
+				android:layout_height="wrap_content" android:id="@+id/lblNetworkAddress" android:textSize="20dip" />
+			<TextView android:layout_width="fill_parent" android:paddingBottom="10dip"
+				android:layout_height="wrap_content" android:id="@+id/txtNetworkAddress"  android:text="@string/dash" />
+				
+			<TextView android:layout_width="fill_parent" android:text="@string/broadcast_address"
+				android:layout_height="wrap_content" android:id="@+id/lblBroadcastAddress" android:textSize="20dip" />
+			<TextView android:layout_width="fill_parent" android:paddingBottom="10dip"
+				android:layout_height="wrap_content" android:id="@+id/txtBroadcastAddress"   android:text="@string/dash"/>
+				
+			<TextView android:layout_width="fill_parent" android:text="@string/address_range"
+				android:layout_height="wrap_content" android:id="@+id/lblAddressRange" android:textSize="20dip" />
+			<TextView android:layout_width="fill_parent" android:paddingBottom="10dip"
+				android:layout_height="wrap_content" android:id="@+id/txtAddressRange"  android:text="@string/dash" />
+				
+			<TextView android:layout_width="fill_parent" android:text="@string/number_of_hosts"
+				android:layout_height="wrap_content" android:id="@+id/lblNumberOfHosts" android:textSize="20dip" />
+			<TextView android:layout_width="fill_parent" android:paddingBottom="10dip"
+				android:layout_height="wrap_content" android:id="@+id/txtNumberOfHosts"   android:text="@string/dash"/>
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IPToolsActivity!</string>
+    <string name="app_name">IP Tools</string>
+    <string name="ssid">SSID</string>
+    <string name="bssid">BSSID</string>
+    <string name="frequency">Frequency</string>
+    <string name="channel">Channel</string>
+    <string name="signal_strength">Signal strength</string>
+    <string name="encryption">Encryption</string>
+    <string name="hidden_ssid">Has hidden SSID</string>
+    <string name="link_speed">Link speed</string>
+    <string name="rssi">RSSI</string>
+    <string name="charts">Charts</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="calculate">Calculate</string>
+    <string name="ip_calculator">IP Calculator</string>
+    <string name="ip_calculator_desc">Calculate IP and subnet addresses</string>
+    <string name="ip_address">IP Address</string>
+    <string name="admin_utilities">Diagnostic Tools</string>
+    <string name="admin_utilities_desc">Basic diagnostic tools</string>
+    <string name="wifi_networks">WiFi Networks</string>
+    <string name="wifi_networks_desc">View the available WiFi networks</string>    
+    <string name="ping">Ping</string>   
+    <string name="ping_desc">Test the reachability of a host</string>  
+    <string name="nslookup">NS Lookup</string>   
+    <string name="nslookup_desc">Obtain domain name of IP address or viceversa</string> 
+    <string name="utilities_edittext_label">IP Address or Domain name\r\n(127.0.0.1/example.com)  </string>
+    <string name="network_class">Network Class</string>
+    <string name="binary_addres">Binary Address</string>
+    <string name="network_address">Network Address</string>
+    <string name="broadcast_address">Broadcast Address</string>
+    <string name="address_range">Address Range</string>
+    <string name="number_of_hosts">Number of Hosts</string> 
+    <string name="dash">-</string> 
+    <string name="no_data_found">No data was found.</string> 
+    <string name="invalid_ip">You entered an invalid IP</string> 
+    <string name="invalid_ip_domain">You entered an invalid IP or domain</string> 
+    <string name="please_wait">Please wait...</string> 
+    <string name="searching">Searching.</string> 
+    <string name="pinging">Pinging.</string> 
+    <string name="min_subnet">Subnet must be less that 32</string> 
+    <string name="ping_no_host">Ping request could not find the host</string>
+    <string name="check_name">Please check the name and try again.</string>
+    <string name="chart_title">Signal strength per channel</string>
+    <string name="signal_strength_unit">Signal strength (dBm)</string>
+    <string name="dbm">dBm</string>
+    <string name="mbps">Mbps</string>
+    <string name="hz">Hz</string>
+    <string name="request">Request</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="number_of_pings">Number of Pings</string>
+    <string name="number_of_pings_to_execute">Number of pings to execute</string>
+    <string name="ping_preferences">Ping preferences</string>
+     
+    
+</resources>
